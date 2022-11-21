@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.right-side {
+    background-color: #4b5195;
+    padding: 20px;
+    color: #fff;
+}
+
+.left-side {
+    padding: 20px;
+}
+
+
+.container .left-side .left-side-form {
+    display: grid;
+    width: 100%;
+    height: 350px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "name skype"
+        "email topic"
+        "message message"
+        "button button"
+    ;
+    column-gap: 15px;
+
+}
+
+.container 
+.left-side 
+.left-side-form input, 
+textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+.container .left-side .left-side-form .name {
+    grid-area: name;
+}
+
+.container .left-side .left-side-form .skype {
+    grid-area: skype;
+}
+
+.container .left-side .left-side-form .email {
+    grid-area: email;
+}
+
+.container .left-side .left-side-form .topic {
+    grid-area: topic;
+}
+
+.container .left-side .left-side-form .message {
+    grid-area: message;
+}
+
+.container .left-side .left-side-form .button {
+    padding-top: 20px;
+    grid-area: button;
+}
+
+.left-side-form input[type="submit"] {
+    background-color: #d3d3d3;
+    border: 0;
+    padding: auto 20px;
+    cursor: pointer;
+}
