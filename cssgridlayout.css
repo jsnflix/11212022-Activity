@@ -72,6 +72,5 @@ textarea {
 .left-side-form input[type="submit"] {
     background-color: #d3d3d3;
     border: 0;
-    padding: auto 20px;
     cursor: pointer;
 }
