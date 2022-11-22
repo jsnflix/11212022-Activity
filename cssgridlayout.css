@@ -9,18 +9,18 @@
     gap: 10px;
 }
 
-.right-side {
+.left-side {
     background-color: #4b5195;
     padding: 20px;
     color: #fff;
 }
 
-.left-side {
+.right-side {
     padding: 20px;
 }
 
 
-.container .left-side .left-side-form {
+.container .right-side .right-side-form {
     display: grid;
     width: 100%;
     height: 350px;
@@ -37,39 +37,39 @@
 }
 
 .container 
-.left-side 
-.left-side-form input, 
+.right-side 
+.right-side-form input, 
 textarea {
     padding: 10px;
     width: 100%;
 }
 
-.container .left-side .left-side-form .name {
+.container .right-side .right-side-form .name {
     grid-area: name;
 }
 
-.container .left-side .left-side-form .skype {
+.container .right-side .right-side-form .skype {
     grid-area: skype;
 }
 
-.container .left-side .left-side-form .email {
+.container .right-side .right-side-form .email {
     grid-area: email;
 }
 
-.container .left-side .left-side-form .topic {
+.container .right-side .right-side-form .topic {
     grid-area: topic;
 }
 
-.container .left-side .left-side-form .message {
+.container .right-side .right-side-form .message {
     grid-area: message;
 }
 
-.container .left-side .left-side-form .button {
+.container .right-side .right-side-form .button {
     padding-top: 20px;
     grid-area: button;
 }
 
-.left-side-form input[type="submit"] {
+.right-side-form input[type="submit"] {
     background-color: #d3d3d3;
     border: 0;
     cursor: pointer;
